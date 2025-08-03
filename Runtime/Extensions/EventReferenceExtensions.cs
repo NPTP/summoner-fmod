@@ -22,7 +22,7 @@ namespace Summoner.Fmod.Extensions
             eventInstance.set3DAttributes(position.To3DAttributes());
             eventInstance.start();
             eventInstance.release();
-            return eventInstance;
+            return eventInstance; //
         }
 
         public static EventInstance PlayOneShot(this EventReference eventReference, Transform transform)
